@@ -1,0 +1,230 @@
+/*
+ Theme Name:   Tema TIDI
+ Theme URI:    http://telematica.unam.mx
+ Description:  Un tema adaptado para TIDI UNAM
+ Author:        TIDI
+ Author URI:   http://example.com
+ Template:     zerif-lite
+ Version:      0.1
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Tidi Tema
+*/
+@import url("../zerif-lite/style.css");
+
+/* =Aquí empieza la personalización de tu tema
+-------------------------------------------------------------- */
+/*colores del texto de los circulos*/
+.focus-box h5 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.focus-box p {
+    font-size: 16px;
+    color: white;
+}
+
+ /*transparencia de los circulos*/
+.focus .row .focus-box, .our-team .row .team-box {
+    background: rgba(0,0,4,.50);
+    border-radius: 10%;
+}
+
+	/*color h6*/
+.section-header h6 {
+	color: black;
+
+}
+/*estilos h2 de primera seccion*/
+.section-header h2 {
+	background: rgba(0,0,4,.50);
+	color: white;
+}
+
+.intro-text {
+    background-color: white;
+    color: black;
+}
+
+/* texto intro*/
+.txt-intro{
+  
+}
+
+/*navigation bar*/
+.navbar-brand {
+  
+  padding: 0px 0px;
+  height: 120px;
+  
+}
+.navbar-brand > img {
+  max-height: 100%;
+  background-color: #607D8B;
+  border-radius: 20%;
+}
+
+/*fondo del navigation bar en prymary dark*/
+.navbar {
+  background: rgba(0,0,4,.30);
+  background: #607D8B; 
+}
+
+
+/*color de fondo de la transparencia y padding de los elementos de la primera seccion*/
+.header-content-wrap {
+  background: rgba(0, 0, 0, 0);
+  padding: 120px 0 210px;
+  }
+/*color del fondo con prymary color*/
+body {
+  background: white;
+}
+
+/*dimensiones del logo*/
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: -25px;
+
+  
+}
+
+/*background del titulo*/
+.txt-intro {
+  background: rgba(0,0,4,.50);
+  color: white;
+  margin-top: 20px;
+  padding: 1px 0;
+  text-align: center;
+  text-transform: uppercase;
+  float: none;
+  line-height: 65px;
+  font-size: 50px;
+}
+
+/*color del texto en navigation bar*/
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+
+.about-us {
+  background: #00BCD4;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.about-us p {
+  color: white;
+}
+
+.testimonial {
+    
+    background: rgba(0,0,4,.90);
+}
+
+body{
+  font-size: 16px;
+}
+
+.company-details{
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.copyright{
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+/*Estilos del componete de  last news*/
+
+
+.noticias{
+  color: #FFFFFF;
+}
+
+.contenedorIzquierda
+{
+  width: 730px;
+  margin-right: 20px;
+  padding: 10px;
+  float: left;
+}
+
+
+.contenedorDerecha
+{
+  width: 380px;                 
+  padding-left: 20px;           
+  border-left: 1px solid #0097A7 ; 
+  float: left;
+}
+
+
+
+.listaNoticias
+{
+  width: 380px;          
+  margin-bottom: 16px;   
+  float: left;
+}
+
+.Post a {
+  color: #b6b6b6;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+}
+.Post {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #B2EBF2 ;
+  padding-bottom: 10px;
+  position: relative;
+}
+.Post-texto {
+  color: #B2EBF2;
+}
+.Post-image {
+  width: 100%;
+  overflow: hidden;
+  height: 106px;
+  margin-bottom: 3px;
+  position: relative;
+}
+
+@media (max-width: 620px) {
+  .contenedorIzquierda{
+    width: 100%;
+  }
+
+
+  }
+
+/*Estilos contenedor last news*/
+.latest-news{
+	background: rgba(0, 0, 0, .10);
+  	background-color: grey;
+
+} 
+
+/*Estilos  de  etiqueta p texto de last news*/
+.latesnews-content p, 
+.latesnews-content{
+  color: white;
+}
+/*Estilos del titulo  de last news*/
+#carousel-homepage-latestnews .carousel-inner .item .latestnews-title a{
+  color: #B2EBF2;
+
+}
+
+
+/*Color de titulos de las otras secciones*/
+.dark-text{
+  color: #B6B6B6;
+}
+
+
+.focus {
+    background: none;
+}
